@@ -185,7 +185,7 @@ html{
             padding: 20px 10px;
             border-radius: 10px;
             position: absolute;
-            top: 550px;
+            top: 535px;
             left: 20px;
 
             > a p{
@@ -375,6 +375,110 @@ html{
         }
     }
 
+}
+
+/*Management*/
+.management_container{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .management_container_inner{
+        width: 350px;
+        height: 350px;
+        background-color: #547BA8;
+    }
+    
+        .management_container_inner img{
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .management_container_inner h2{
+            margin-top: 30px;
+            padding: 10px 0px;
+            font-family: "Noto Serif JP", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .management_container_inner p{
+            margin-top: 10px;
+            font-family: "Noto Serif JP", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 24px;
+            color: #fff;
+            padding: 0px 10px;
+        }
+
+        .management_container_inner ul{
+            margin-top: 10px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .management_container_inner ul li{
+            font-family: "Noto Serif JP", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #fff;
+        }
+
+        .management_registration{    
+            background-color: #181878;
+            width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+
+            .management_registration p{
+                font-family: "Noto Serif JP", serif;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 18px;
+                text-align: center;
+                padding: 5px;
+            }
+
+@media (min-width: 768px){
+    .management_container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    .management_container_inner{
+        width: 379px;
+    }
+
+    .management_container_inner img{
+        width: 379px;
+        height: 350px;
+    }
 }
 
 /*Feature*/

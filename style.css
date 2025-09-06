@@ -92,6 +92,8 @@ html{
             padding-top: 15px;
             padding-left: 20px;
             line-height: 0.7em;
+            text-shadow: 3px 3px 4px rgba(255, 255, 255, 0.5);
+            
 
             > .arrow{
                 font-family: "Noto Sans JP", sans-serif;
@@ -104,7 +106,6 @@ html{
 
             > .omakase{
                 font-size: 40px;
-                text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
             }
         }
 
@@ -211,7 +212,7 @@ html{
 
 @media (min-width: 768px) {
     .hero_container{
-        background-image: url(img/desktop_zeroichi_first_view_240904.jpg);
+        background-image: url(img/city_sunset_with_rena_w1440_h800.jpg);
         max-width: 1066px;
         margin-left: auto;
         margin-right: auto;

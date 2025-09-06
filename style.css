@@ -93,6 +93,7 @@ html{
             padding-left: 20px;
             line-height: 0.7em;
             text-shadow: 3px 3px 4px rgba(255, 255, 255, 0.5);
+            letter-spacing: -0.05em;
             
 
             > .arrow{
@@ -226,6 +227,7 @@ html{
                 position: absolute;
                 top: 50px;
                 font-size: 88px;
+                letter-spacing: 0.05em;
 
                 > .arrow, .nara, .omakase{
                     font-size: 64px;
